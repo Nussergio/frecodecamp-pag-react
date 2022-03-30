@@ -8,7 +8,7 @@ function Testimonio (props){
       <img className='imagen-testimonio' src={ require (`../imagenes/testimonio-${props.imagen}.png`)}
       alt='foto de Shawn'/>
       <div className='contenedor-texto-testimonio'>
-        <p className='nombre-testimonio'>{props.nombre} Wang in {props.pais}</p>
+        <p className='nombre-testimonio'>{props.nombre} in {props.pais}</p>
         <p className='cargo-testimonio'>{props.cargo} at {props.empresa}</p>
         <p className='texto-testimonio'>"{props.texto}"</p>
       </div>
